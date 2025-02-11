@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  /* Loading Page */
+  #loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+  }
+  
+  /* Toggle Switches Page */
+  #toggle-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fadede;
+  }
+  
+  /* Heart Button Page */
+  #button-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fadede;
+  }
+  
+  .click-me {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fe7696;
+  }
+  
+  /* Love Page */
+  #love-page {
+    background-color: #fe7696; /* Rose red background */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-pink {
+    background-color: #ff69b4;
+  }
+  
+  /* Add your existing CSS for terminal-loader, love-heart, button, and rose here */
